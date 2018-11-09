@@ -19,4 +19,5 @@ end
 
 def printer(array)
   batch_batch_creatory(array)
-  
+  assign_rooms(array)
+end
