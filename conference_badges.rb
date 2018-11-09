@@ -20,5 +20,5 @@ end
 def printer(array)
   array.each do |i|
     batch_badge_creator(array)[i]
-  
+  end
 end
