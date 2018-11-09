@@ -18,7 +18,7 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  for i in 0..array.length-1
+  array.each do |i|
     puts batch_badge_creator(array)[i]
   end
 end
