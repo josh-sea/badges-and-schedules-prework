@@ -4,8 +4,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
+  array2=[]
   for i in 0..array.length-1
-    array[i] = "Hello, my name is #{array[i]}."
+    array2[i] = "Hello, my name is #{array[i]}."
   end
   return array
 end
