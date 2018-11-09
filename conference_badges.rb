@@ -19,6 +19,6 @@ end
 
 def printer(array)
   for i in 0..array.length-1
-    puts badges[i]
+    puts batch_badge_creator[i]
   end
 end
