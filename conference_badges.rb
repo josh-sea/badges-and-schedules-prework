@@ -14,4 +14,5 @@ def assign_rooms(array)
   for i in 0..array.length-1
     array[i] = "Hello, #{array[i]}! You'll be assigned to room #{i+1}!"
   end
+  array
 end
