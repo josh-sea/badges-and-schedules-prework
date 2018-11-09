@@ -4,5 +4,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  for i in array
+  array.each do |i|
+    array.map!{|i| badge_maker(i)}
 end
