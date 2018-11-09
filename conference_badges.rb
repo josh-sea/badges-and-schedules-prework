@@ -8,7 +8,7 @@ def batch_badge_creator(array)
   for i in 0..array.length-1
     array2[i] = "Hello, my name is #{array[i]}."
   end
-  return array
+  return array2
 end
 
 def assign_rooms(array)
