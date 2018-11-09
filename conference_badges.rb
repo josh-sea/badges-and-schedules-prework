@@ -16,3 +16,4 @@ def assign_rooms(array)
   end
   array
 end
+
