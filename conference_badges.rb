@@ -19,7 +19,7 @@ end
 
 def printer(array)
   batch_badge_creator(array).each do |i|
-    puts batch_badge_creator(array)[i]
+    puts batch_badge_creator[i]
   end
   array.each do |j|
     puts assign_rooms(array)
